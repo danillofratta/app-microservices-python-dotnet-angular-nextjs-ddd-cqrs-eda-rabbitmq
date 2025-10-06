@@ -5,14 +5,14 @@ The system uses RabbitMQ for event-driven communication, PostgreSQL for write op
 
 \## ⚙️ Process Overview
 
-The Angular frontend creates an order and calls the Python write API.
-The Python API saves the order data in PostgreSQL.
-The Python API publishes an OrderCreatedEvent message to RabbitMQ.
-The Python consumer reads the event and saves the data in MongoDB (read model).
-The .NET consumer listens to the same event, checks product stock, and sends a StockReservedEvent (OK or not OK) back to RabbitMQ.
-The Python consumer listens for the StockReservedEvent, updates the order status in PostgreSQL and MongoDB.
-The Angular frontend calls the Python read API to display orders from MongoDB.
-The Next.js frontend calls the .NET API to manage and save product data in PostgreSQL.
+\- The Angular frontend creates an order and calls the Python write API.
+\- The Python API saves the order data in PostgreSQL.
+\- The Python API publishes an OrderCreatedEvent message to RabbitMQ.
+\- The Python consumer reads the event and saves the data in MongoDB (read model).
+\- The .NET consumer listens to the same event, checks product stock, and sends a StockReservedEvent (OK or not OK) back to RabbitMQ.
+\- The Python consumer listens for the StockReservedEvent, updates the order status in PostgreSQL and MongoDB.
+\- The Angular frontend calls the Python read API to display orders from MongoDB.
+\- The Next.js frontend calls the .NET API to manage and save product data in PostgreSQL.
 
 \## Technologies
 
