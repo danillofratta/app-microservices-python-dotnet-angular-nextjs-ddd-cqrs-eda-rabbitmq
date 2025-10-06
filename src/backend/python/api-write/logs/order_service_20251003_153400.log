@@ -1,0 +1,119 @@
+2025-10-03 15:34:01 - order_service.app - INFO - Starting application...
+2025-10-03 15:34:01 - order_service.middleware - INFO - START POST http://localhost:8000/v1/orders/
+2025-10-03 15:34:01 - order_service.command - DEBUG - Initialized CreateOrderCommand with repo: PostgresOrderRepository
+2025-10-03 15:34:01 - order_service.routes - INFO - Received POST /v1/orders/ request: customer_id=123, items_count=2
+2025-10-03 15:34:01 - order_service.command - DEBUG - Executing create order: customer_id=123, items_count=2
+2025-10-03 15:34:01 - order_service.command - DEBUG - Created 2 Product objects
+2025-10-03 15:34:01 - order_service.command - INFO - Created order: order_id=b51cc10a-aa42-4566-aa4b-bb262d001939, total=27.48
+2025-10-03 15:34:01 - order_service.command - INFO - Saved order to repository: order_id=b51cc10a-aa42-4566-aa4b-bb262d001939
+2025-10-03 15:34:01 - order_service.routes - INFO - Order created: order_id=b51cc10a-aa42-4566-aa4b-bb262d001939, total=27.48
+2025-10-03 15:34:01 - order_service.middleware - INFO - END POST http://localhost:8000/v1/orders/ - status 200 (132.02ms)
+2025-10-03 15:34:05 - order_service.middleware - INFO - START POST http://localhost:8000/v1/orders/
+2025-10-03 15:34:05 - order_service.command - DEBUG - Initialized CreateOrderCommand with repo: PostgresOrderRepository
+2025-10-03 15:34:05 - order_service.routes - INFO - Received POST /v1/orders/ request: customer_id=123, items_count=2
+2025-10-03 15:34:05 - order_service.command - DEBUG - Executing create order: customer_id=123, items_count=2
+2025-10-03 15:34:05 - order_service.command - DEBUG - Created 2 Product objects
+2025-10-03 15:34:05 - order_service.command - INFO - Created order: order_id=1894693f-cec3-48ca-846e-adef0739a5b6, total=27.48
+2025-10-03 15:34:05 - order_service.command - INFO - Saved order to repository: order_id=1894693f-cec3-48ca-846e-adef0739a5b6
+2025-10-03 15:34:05 - order_service.routes - INFO - Order created: order_id=1894693f-cec3-48ca-846e-adef0739a5b6, total=27.48
+2025-10-03 15:34:05 - order_service.middleware - INFO - END POST http://localhost:8000/v1/orders/ - status 200 (11.06ms)
+2025-10-03 15:34:11 - order_service.middleware - INFO - START POST http://localhost:8000/v1/orders/
+2025-10-03 15:34:11 - order_service.command - DEBUG - Initialized CreateOrderCommand with repo: PostgresOrderRepository
+2025-10-03 15:34:11 - order_service.routes - INFO - Received POST /v1/orders/ request: customer_id=123, items_count=2
+2025-10-03 15:34:11 - order_service.command - DEBUG - Executing create order: customer_id=123, items_count=2
+2025-10-03 15:34:11 - order_service.command - DEBUG - Created 2 Product objects
+2025-10-03 15:34:11 - order_service.command - INFO - Created order: order_id=68b66190-b388-4cf7-bf2e-494fc79bdc78, total=27.48
+2025-10-03 15:34:11 - order_service.command - INFO - Saved order to repository: order_id=68b66190-b388-4cf7-bf2e-494fc79bdc78
+2025-10-03 15:34:11 - order_service.routes - INFO - Order created: order_id=68b66190-b388-4cf7-bf2e-494fc79bdc78, total=27.48
+2025-10-03 15:34:11 - order_service.middleware - INFO - END POST http://localhost:8000/v1/orders/ - status 200 (11.34ms)
+2025-10-03 15:34:13 - order_service.middleware - INFO - START POST http://localhost:8000/v1/orders/
+2025-10-03 15:34:13 - order_service.command - DEBUG - Initialized CreateOrderCommand with repo: PostgresOrderRepository
+2025-10-03 15:34:13 - order_service.routes - INFO - Received POST /v1/orders/ request: customer_id=123, items_count=2
+2025-10-03 15:34:13 - order_service.command - DEBUG - Executing create order: customer_id=123, items_count=2
+2025-10-03 15:34:13 - order_service.command - DEBUG - Created 2 Product objects
+2025-10-03 15:34:13 - order_service.command - INFO - Created order: order_id=145aa980-71cc-4978-9055-b6ced7b39c41, total=27.48
+2025-10-03 15:34:13 - order_service.command - INFO - Saved order to repository: order_id=145aa980-71cc-4978-9055-b6ced7b39c41
+2025-10-03 15:34:13 - order_service.routes - INFO - Order created: order_id=145aa980-71cc-4978-9055-b6ced7b39c41, total=27.48
+2025-10-03 15:34:13 - order_service.middleware - INFO - END POST http://localhost:8000/v1/orders/ - status 200 (10.00ms)
+2025-10-03 15:34:13 - order_service.middleware - INFO - START POST http://localhost:8000/v1/orders/
+2025-10-03 15:34:13 - order_service.command - DEBUG - Initialized CreateOrderCommand with repo: PostgresOrderRepository
+2025-10-03 15:34:13 - order_service.routes - INFO - Received POST /v1/orders/ request: customer_id=123, items_count=2
+2025-10-03 15:34:13 - order_service.command - DEBUG - Executing create order: customer_id=123, items_count=2
+2025-10-03 15:34:13 - order_service.command - DEBUG - Created 2 Product objects
+2025-10-03 15:34:13 - order_service.command - INFO - Created order: order_id=be149d9b-7284-4d66-b6f8-f8e54c60bdf1, total=27.48
+2025-10-03 15:34:13 - order_service.command - INFO - Saved order to repository: order_id=be149d9b-7284-4d66-b6f8-f8e54c60bdf1
+2025-10-03 15:34:13 - order_service.routes - INFO - Order created: order_id=be149d9b-7284-4d66-b6f8-f8e54c60bdf1, total=27.48
+2025-10-03 15:34:13 - order_service.middleware - INFO - END POST http://localhost:8000/v1/orders/ - status 200 (9.51ms)
+2025-10-03 15:34:14 - order_service.middleware - INFO - START POST http://localhost:8000/v1/orders/
+2025-10-03 15:34:14 - order_service.command - DEBUG - Initialized CreateOrderCommand with repo: PostgresOrderRepository
+2025-10-03 15:34:14 - order_service.routes - INFO - Received POST /v1/orders/ request: customer_id=123, items_count=2
+2025-10-03 15:34:14 - order_service.command - DEBUG - Executing create order: customer_id=123, items_count=2
+2025-10-03 15:34:14 - order_service.command - DEBUG - Created 2 Product objects
+2025-10-03 15:34:14 - order_service.command - INFO - Created order: order_id=46151386-6d46-4156-b83d-095b041e6ead, total=27.48
+2025-10-03 15:34:14 - order_service.command - INFO - Saved order to repository: order_id=46151386-6d46-4156-b83d-095b041e6ead
+2025-10-03 15:34:14 - order_service.routes - INFO - Order created: order_id=46151386-6d46-4156-b83d-095b041e6ead, total=27.48
+2025-10-03 15:34:14 - order_service.middleware - INFO - END POST http://localhost:8000/v1/orders/ - status 200 (9.52ms)
+2025-10-03 15:34:15 - order_service.middleware - INFO - START POST http://localhost:8000/v1/orders/
+2025-10-03 15:34:15 - order_service.command - DEBUG - Initialized CreateOrderCommand with repo: PostgresOrderRepository
+2025-10-03 15:34:15 - order_service.routes - INFO - Received POST /v1/orders/ request: customer_id=123, items_count=2
+2025-10-03 15:34:15 - order_service.command - DEBUG - Executing create order: customer_id=123, items_count=2
+2025-10-03 15:34:15 - order_service.command - DEBUG - Created 2 Product objects
+2025-10-03 15:34:15 - order_service.command - INFO - Created order: order_id=a94a4748-814a-4c75-9298-f8fdb5bbe610, total=27.48
+2025-10-03 15:34:15 - order_service.command - INFO - Saved order to repository: order_id=a94a4748-814a-4c75-9298-f8fdb5bbe610
+2025-10-03 15:34:15 - order_service.routes - INFO - Order created: order_id=a94a4748-814a-4c75-9298-f8fdb5bbe610, total=27.48
+2025-10-03 15:34:15 - order_service.middleware - INFO - END POST http://localhost:8000/v1/orders/ - status 200 (9.00ms)
+2025-10-03 15:34:15 - order_service.middleware - INFO - START POST http://localhost:8000/v1/orders/
+2025-10-03 15:34:15 - order_service.command - DEBUG - Initialized CreateOrderCommand with repo: PostgresOrderRepository
+2025-10-03 15:34:15 - order_service.routes - INFO - Received POST /v1/orders/ request: customer_id=123, items_count=2
+2025-10-03 15:34:15 - order_service.command - DEBUG - Executing create order: customer_id=123, items_count=2
+2025-10-03 15:34:15 - order_service.command - DEBUG - Created 2 Product objects
+2025-10-03 15:34:15 - order_service.command - INFO - Created order: order_id=8ee54837-79d0-482f-8a88-a420bc5144ab, total=27.48
+2025-10-03 15:34:15 - order_service.command - INFO - Saved order to repository: order_id=8ee54837-79d0-482f-8a88-a420bc5144ab
+2025-10-03 15:34:15 - order_service.routes - INFO - Order created: order_id=8ee54837-79d0-482f-8a88-a420bc5144ab, total=27.48
+2025-10-03 15:34:15 - order_service.middleware - INFO - END POST http://localhost:8000/v1/orders/ - status 200 (11.47ms)
+2025-10-03 15:34:16 - order_service.middleware - INFO - START POST http://localhost:8000/v1/orders/
+2025-10-03 15:34:16 - order_service.command - DEBUG - Initialized CreateOrderCommand with repo: PostgresOrderRepository
+2025-10-03 15:34:16 - order_service.routes - INFO - Received POST /v1/orders/ request: customer_id=123, items_count=2
+2025-10-03 15:34:16 - order_service.command - DEBUG - Executing create order: customer_id=123, items_count=2
+2025-10-03 15:34:16 - order_service.command - DEBUG - Created 2 Product objects
+2025-10-03 15:34:16 - order_service.command - INFO - Created order: order_id=c6562acb-5819-4658-bf20-2e7f97ef9a45, total=27.48
+2025-10-03 15:34:16 - order_service.command - INFO - Saved order to repository: order_id=c6562acb-5819-4658-bf20-2e7f97ef9a45
+2025-10-03 15:34:16 - order_service.routes - INFO - Order created: order_id=c6562acb-5819-4658-bf20-2e7f97ef9a45, total=27.48
+2025-10-03 15:34:16 - order_service.middleware - INFO - END POST http://localhost:8000/v1/orders/ - status 200 (12.02ms)
+2025-10-03 15:34:17 - order_service.middleware - INFO - START POST http://localhost:8000/v1/orders/
+2025-10-03 15:34:17 - order_service.command - DEBUG - Initialized CreateOrderCommand with repo: PostgresOrderRepository
+2025-10-03 15:34:17 - order_service.routes - INFO - Received POST /v1/orders/ request: customer_id=123, items_count=2
+2025-10-03 15:34:17 - order_service.command - DEBUG - Executing create order: customer_id=123, items_count=2
+2025-10-03 15:34:17 - order_service.command - DEBUG - Created 2 Product objects
+2025-10-03 15:34:17 - order_service.command - INFO - Created order: order_id=40cbf760-e562-447f-8c06-c17e9e714e00, total=27.48
+2025-10-03 15:34:17 - order_service.command - INFO - Saved order to repository: order_id=40cbf760-e562-447f-8c06-c17e9e714e00
+2025-10-03 15:34:17 - order_service.routes - INFO - Order created: order_id=40cbf760-e562-447f-8c06-c17e9e714e00, total=27.48
+2025-10-03 15:34:17 - order_service.middleware - INFO - END POST http://localhost:8000/v1/orders/ - status 200 (10.60ms)
+2025-10-03 15:34:17 - order_service.middleware - INFO - START POST http://localhost:8000/v1/orders/
+2025-10-03 15:34:17 - order_service.command - DEBUG - Initialized CreateOrderCommand with repo: PostgresOrderRepository
+2025-10-03 15:34:17 - order_service.routes - INFO - Received POST /v1/orders/ request: customer_id=123, items_count=2
+2025-10-03 15:34:17 - order_service.command - DEBUG - Executing create order: customer_id=123, items_count=2
+2025-10-03 15:34:17 - order_service.command - DEBUG - Created 2 Product objects
+2025-10-03 15:34:17 - order_service.command - INFO - Created order: order_id=c0f0b7b3-5c94-4801-90c9-c8d5da4dd733, total=27.48
+2025-10-03 15:34:17 - order_service.command - INFO - Saved order to repository: order_id=c0f0b7b3-5c94-4801-90c9-c8d5da4dd733
+2025-10-03 15:34:17 - order_service.routes - INFO - Order created: order_id=c0f0b7b3-5c94-4801-90c9-c8d5da4dd733, total=27.48
+2025-10-03 15:34:17 - order_service.middleware - INFO - END POST http://localhost:8000/v1/orders/ - status 200 (12.00ms)
+2025-10-03 15:34:18 - order_service.middleware - INFO - START POST http://localhost:8000/v1/orders/
+2025-10-03 15:34:18 - order_service.command - DEBUG - Initialized CreateOrderCommand with repo: PostgresOrderRepository
+2025-10-03 15:34:18 - order_service.routes - INFO - Received POST /v1/orders/ request: customer_id=123, items_count=2
+2025-10-03 15:34:18 - order_service.command - DEBUG - Executing create order: customer_id=123, items_count=2
+2025-10-03 15:34:18 - order_service.command - DEBUG - Created 2 Product objects
+2025-10-03 15:34:18 - order_service.command - INFO - Created order: order_id=4670f2b9-5c07-4f0e-be09-33fb8df0dde6, total=27.48
+2025-10-03 15:34:18 - order_service.command - INFO - Saved order to repository: order_id=4670f2b9-5c07-4f0e-be09-33fb8df0dde6
+2025-10-03 15:34:18 - order_service.routes - INFO - Order created: order_id=4670f2b9-5c07-4f0e-be09-33fb8df0dde6, total=27.48
+2025-10-03 15:34:18 - order_service.middleware - INFO - END POST http://localhost:8000/v1/orders/ - status 200 (8.04ms)
+2025-10-03 15:34:20 - order_service.middleware - INFO - START POST http://localhost:8000/v1/orders/
+2025-10-03 15:34:20 - order_service.command - DEBUG - Initialized CreateOrderCommand with repo: PostgresOrderRepository
+2025-10-03 15:34:20 - order_service.routes - INFO - Received POST /v1/orders/ request: customer_id=123, items_count=2
+2025-10-03 15:34:20 - order_service.command - DEBUG - Executing create order: customer_id=123, items_count=2
+2025-10-03 15:34:20 - order_service.command - DEBUG - Created 2 Product objects
+2025-10-03 15:34:20 - order_service.command - INFO - Created order: order_id=62136fb5-7ce7-4eed-8959-10888521346a, total=27.48
+2025-10-03 15:34:20 - order_service.command - INFO - Saved order to repository: order_id=62136fb5-7ce7-4eed-8959-10888521346a
+2025-10-03 15:34:20 - order_service.routes - INFO - Order created: order_id=62136fb5-7ce7-4eed-8959-10888521346a, total=27.48
+2025-10-03 15:34:20 - order_service.middleware - INFO - END POST http://localhost:8000/v1/orders/ - status 200 (12.78ms)
+2025-10-03 15:34:21 - order_service.app - INFO - Shutting down application

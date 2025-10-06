@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "EcommerceSystem.Api.Controllers.ProductsController",
+    "Method": "GetAllProducts",
+    "RelativePath": "api/Products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceSystem.Api.Controllers.ProductsController",
+    "Method": "ReserveStock",
+    "RelativePath": "api/Products/reserve-stock",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "EcommerceSystem.Application.Commands.ReserveStockCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,62 @@
+2025-10-03 15:34:21 - order_service.app - INFO - Starting application...
+2025-10-03 15:34:21 - order_service.middleware - INFO - START POST http://localhost:8000/v1/orders/
+2025-10-03 15:34:21 - order_service.command - DEBUG - Initialized CreateOrderCommand with repo: PostgresOrderRepository
+2025-10-03 15:34:21 - order_service.routes - INFO - Received POST /v1/orders/ request: customer_id=123, items_count=2
+2025-10-03 15:34:21 - order_service.command - DEBUG - Executing create order: customer_id=123, items_count=2
+2025-10-03 15:34:21 - order_service.command - DEBUG - Created 2 Product objects
+2025-10-03 15:34:21 - order_service.command - INFO - Created order: order_id=9afd2f08-fc6e-4f99-b676-1822e5d19319, total=27.48
+2025-10-03 15:34:21 - order_service.command - INFO - Saved order to repository: order_id=9afd2f08-fc6e-4f99-b676-1822e5d19319
+2025-10-03 15:34:21 - order_service.routes - ERROR - Failed to create order: Object of type Product is not JSON serializable
+Traceback (most recent call last):
+  File "C:\1 Arquivos\TI\0 Dev\GitHub\Public\app-python-ddd-cqrs-eda\src\backend\python\api-write\src\api\v1\routes.py", line 23, in create_order
+    result = await command.execute(dto.customer_id, dto.items)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\1 Arquivos\TI\0 Dev\GitHub\Public\app-python-ddd-cqrs-eda\src\backend\python\api-write\src\application\commands\create_order.py", line 40, in execute
+    await self.publisher.publish("order.created", event)
+  File "C:\1 Arquivos\TI\0 Dev\GitHub\Public\app-python-ddd-cqrs-eda\src\backend\python\api-write\src\infrastructure\event_bus\rabbitmq_publiser.py", line 27, in publish
+    body=json.dumps(asdict(event)).encode(),
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\danil\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\danil\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\danil\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\danil\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Product is not JSON serializable
+2025-10-03 15:34:22 - order_service.middleware - INFO - END POST http://localhost:8000/v1/orders/ - status 500 (147.16ms)
+2025-10-03 15:36:16 - order_service.middleware - INFO - START POST http://localhost:8000/v1/orders/
+2025-10-03 15:36:16 - order_service.command - DEBUG - Initialized CreateOrderCommand with repo: PostgresOrderRepository
+2025-10-03 15:36:16 - order_service.routes - INFO - Received POST /v1/orders/ request: customer_id=123, items_count=2
+2025-10-03 15:36:16 - order_service.command - DEBUG - Executing create order: customer_id=123, items_count=2
+2025-10-03 15:36:16 - order_service.command - DEBUG - Created 2 Product objects
+2025-10-03 15:36:16 - order_service.command - INFO - Created order: order_id=87ee8041-407e-4509-8e73-afea5ae4fdac, total=27.48
+2025-10-03 15:36:16 - order_service.command - INFO - Saved order to repository: order_id=87ee8041-407e-4509-8e73-afea5ae4fdac
+2025-10-03 15:36:16 - order_service.routes - ERROR - Failed to create order: Object of type Product is not JSON serializable
+Traceback (most recent call last):
+  File "C:\1 Arquivos\TI\0 Dev\GitHub\Public\app-python-ddd-cqrs-eda\src\backend\python\api-write\src\api\v1\routes.py", line 23, in create_order
+    result = await command.execute(dto.customer_id, dto.items)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\1 Arquivos\TI\0 Dev\GitHub\Public\app-python-ddd-cqrs-eda\src\backend\python\api-write\src\application\commands\create_order.py", line 40, in execute
+    await self.publisher.publish("order.created", event)
+  File "C:\1 Arquivos\TI\0 Dev\GitHub\Public\app-python-ddd-cqrs-eda\src\backend\python\api-write\src\infrastructure\event_bus\rabbitmq_publiser.py", line 27, in publish
+    body=json.dumps(asdict(event)).encode(),
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\danil\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\danil\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\danil\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\danil\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Product is not JSON serializable
+2025-10-03 15:36:16 - order_service.middleware - INFO - END POST http://localhost:8000/v1/orders/ - status 500 (14.02ms)
+2025-10-03 15:36:16 - order_service.app - INFO - Shutting down application

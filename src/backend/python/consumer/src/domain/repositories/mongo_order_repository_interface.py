@@ -1,0 +1,6 @@
+from typing import Optional
+
+class IMongoOrderRepository:
+    async def save(self, order: dict): ...     
+    async def get_by_id(self, order_id: str) -> Optional[dict]: ...
+       

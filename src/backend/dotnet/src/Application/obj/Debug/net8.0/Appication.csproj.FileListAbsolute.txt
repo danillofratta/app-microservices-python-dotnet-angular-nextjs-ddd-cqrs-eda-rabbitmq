@@ -1,0 +1,15 @@
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\app-python-ddd-cqrs-eda\src\backend\dotnet\src\Application\bin\Debug\net8.0\Appication.deps.json
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\app-python-ddd-cqrs-eda\src\backend\dotnet\src\Application\bin\Debug\net8.0\Appication.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\app-python-ddd-cqrs-eda\src\backend\dotnet\src\Application\bin\Debug\net8.0\Appication.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\app-python-ddd-cqrs-eda\src\backend\dotnet\src\Application\bin\Debug\net8.0\Domain.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\app-python-ddd-cqrs-eda\src\backend\dotnet\src\Application\bin\Debug\net8.0\Domain.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\app-python-ddd-cqrs-eda\src\backend\dotnet\src\Application\obj\Debug\net8.0\Appication.csproj.AssemblyReference.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\app-python-ddd-cqrs-eda\src\backend\dotnet\src\Application\obj\Debug\net8.0\Appication.GeneratedMSBuildEditorConfig.editorconfig
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\app-python-ddd-cqrs-eda\src\backend\dotnet\src\Application\obj\Debug\net8.0\Appication.AssemblyInfoInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\app-python-ddd-cqrs-eda\src\backend\dotnet\src\Application\obj\Debug\net8.0\Appication.AssemblyInfo.cs
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\app-python-ddd-cqrs-eda\src\backend\dotnet\src\Application\obj\Debug\net8.0\Appication.csproj.CoreCompileInputs.cache
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\app-python-ddd-cqrs-eda\src\backend\dotnet\src\Application\obj\Debug\net8.0\Appication.csproj.Up2Date
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\app-python-ddd-cqrs-eda\src\backend\dotnet\src\Application\obj\Debug\net8.0\Appication.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\app-python-ddd-cqrs-eda\src\backend\dotnet\src\Application\obj\Debug\net8.0\refint\Appication.dll
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\app-python-ddd-cqrs-eda\src\backend\dotnet\src\Application\obj\Debug\net8.0\Appication.pdb
+C:\1 Arquivos\TI\0 Dev\GitHub\Public\app-python-ddd-cqrs-eda\src\backend\dotnet\src\Application\obj\Debug\net8.0\ref\Appication.dll

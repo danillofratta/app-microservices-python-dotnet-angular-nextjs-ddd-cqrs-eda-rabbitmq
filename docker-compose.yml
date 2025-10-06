@@ -1,0 +1,63 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres-container
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: root      
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+  mongodb:
+    image: mongo:6
+    container_name: mongodb
+    volumes:
+      - mongo_data:/data/db
+  rabbitmq:
+    image: rabbitmq:4-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    healthcheck:
+      test: ["CMD", "rabbitmqctl", "status"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  python-api:
+    build: ./src/backend/python/src
+    ports:
+      - "8000:8000"
+    depends_on:
+      - rabbitmq
+      - postgres
+      - mongodb
+    environment:
+      - POSTGRES_URL=postgresql+asyncpg://user:password@postgres:5432/ecommerce
+      - MONGO_URL=mongodb://mongodb:27017
+      - RABBITMQ_URL=amqp://guest:guest@rabbitmq/
+  dotnet-api:
+    build: ./src/backend/dotnet
+    ports:
+      - "8080:80"
+    depends_on:
+      - rabbitmq
+      - postgres
+      - mongodb
+    environment:
+      - ConnectionStrings__Postgres=Host=postgres;Database=ecommerce;Username=user;Password=password
+  angular:
+    build: ./src/frontend/angular
+    ports:
+      - "4200:80"
+  nextjs:
+    build: ./src/frontend/nextjs
+    ports:
+      - "3000:3000"
+
+volumes:
+  postgres_data:
+  mongo_data:

@@ -1,0 +1,21 @@
+2025-10-03 15:36:17 - order_service.app - INFO - Starting application...
+2025-10-03 15:36:17 - order_service.middleware - INFO - START POST http://localhost:8000/v1/orders/
+2025-10-03 15:36:17 - order_service.command - DEBUG - Initialized CreateOrderCommand with repo: PostgresOrderRepository
+2025-10-03 15:36:17 - order_service.routes - INFO - Received POST /v1/orders/ request: customer_id=123, items_count=2
+2025-10-03 15:36:17 - order_service.command - DEBUG - Executing create order: customer_id=123, items_count=2
+2025-10-03 15:36:17 - order_service.command - DEBUG - Created 2 Product objects
+2025-10-03 15:36:17 - order_service.command - INFO - Created order: order_id=273ac387-bf18-40ad-a437-a87c019ca159, total=27.48
+2025-10-03 15:36:17 - order_service.command - INFO - Saved order to repository: order_id=273ac387-bf18-40ad-a437-a87c019ca159
+2025-10-03 15:36:17 - order_service.command - INFO - Event OrderCreatedEvent: create
+2025-10-03 15:36:17 - order_service.routes - INFO - Order created: order_id=273ac387-bf18-40ad-a437-a87c019ca159, total=27.48
+2025-10-03 15:36:17 - order_service.middleware - INFO - END POST http://localhost:8000/v1/orders/ - status 200 (123.03ms)
+2025-10-03 15:36:18 - order_service.middleware - INFO - START POST http://localhost:8000/v1/orders/
+2025-10-03 15:36:18 - order_service.command - DEBUG - Initialized CreateOrderCommand with repo: PostgresOrderRepository
+2025-10-03 15:36:18 - order_service.routes - INFO - Received POST /v1/orders/ request: customer_id=123, items_count=2
+2025-10-03 15:36:18 - order_service.command - DEBUG - Executing create order: customer_id=123, items_count=2
+2025-10-03 15:36:18 - order_service.command - DEBUG - Created 2 Product objects
+2025-10-03 15:36:18 - order_service.command - INFO - Created order: order_id=2069d2c4-6bb5-43d8-90f5-fb760eb27c3b, total=27.48
+2025-10-03 15:36:18 - order_service.command - INFO - Saved order to repository: order_id=2069d2c4-6bb5-43d8-90f5-fb760eb27c3b
+2025-10-03 15:36:18 - order_service.command - INFO - Event OrderCreatedEvent: create
+2025-10-03 15:36:18 - order_service.routes - INFO - Order created: order_id=2069d2c4-6bb5-43d8-90f5-fb760eb27c3b, total=27.48
+2025-10-03 15:36:18 - order_service.middleware - INFO - END POST http://localhost:8000/v1/orders/ - status 200 (13.03ms)

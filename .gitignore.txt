@@ -1,0 +1,47 @@
+# --- Python build and cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+.env/
+
+# --- IDEs and editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Environment and config files ---
+.env.local
+.env.development
+.env.production
+.env.test
+
+# --- Logs and runtime files ---
+*.log
+*.pot
+*.mo
+*.pid
+*.seed
+*.out
+*.bak
+
+# .NET
+bin/
+obj/
+*.csproj.user
+
+# Node.js
+node_modules/
+dist/
+.next/
+
+# Docker
+*.log
